@@ -45,6 +45,11 @@ app.use("/api", orderRoutes);
 //app.use("/api", paymentBRoutes);
 app.use("/api", stripeRoutes);
 
+app.use(express.static(path.join(__dirname, "/projfrontend/build")));
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '/projfrontend/build', 'index.html'));
+});
 
 
 //ports
