@@ -1,1 +1,1 @@
-export const API = process.env.REACT_APP_BACKEND || "https://emonk.herokuapp.com/api/"
+export const API = process.env.REACT_APP_BACKEND
