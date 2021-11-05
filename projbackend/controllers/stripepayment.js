@@ -1,5 +1,5 @@
 const stripe = require("stripe")(
-  "publishable_key"
+  "pk_test_51JdWtzSB66jLXsudxHy6Vq0L7HKcn5L2itHtaSN60OClq6zt7jeL8lJCIJeXn8CXjkkPMxxeox42ljNLe6j5sTaf00ORltpxXQ"
 );
 
 const uuid = require("uuid");
