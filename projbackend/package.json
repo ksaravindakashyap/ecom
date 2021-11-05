@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node app.js",
     "heroku-postbuild": "cd client && npm install && npm run build"
-
+  },
+  "engines": {
+    "node": "12.18.4"
   },
   "keywords": [],
   "author": "",
